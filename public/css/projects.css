@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "MorePerfectDOSVGA";
+    src: url("public/fonts/MorePerfectDOSVGA.ttf");
+  }
+
+body {
+    background-color: #050505;
+    margin: 0;
+    font-family: "MorePerfectDOSVGA", "Courier New";
+}
+
+.Header {
+    overflow: hidden;
+    background-color: #050505;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.Header a {
+    color: #ffff00;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+table, th, td {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+    padding: 2px 0px;
+    table-layout: fixed;
+}
+
+table {
+    width: 70%;
+}
+
+.tableImage {
+    padding: 10px 0px;
+}
+
+.tableLink {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+}

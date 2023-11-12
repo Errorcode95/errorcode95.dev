@@ -1,0 +1,82 @@
+body {
+    background-color: #050505;  
+    animation: text-colour s infinite;
+    font-family: "Lucida Console", Monospace;
+}
+
+.legacy a {
+    color: #050505;
+    text-decoration: none;
+}
+
+.Typewriter {
+    text-align: center;
+    padding: 300px 0;
+}
+
+.TWtext a {
+    padding-top:25em;
+    animation: text-colour 20s infinite;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.TWcursor a {
+    animation: opacity 1s infinite;
+    padding-top:25em;
+    animation: text-colour 20s infinite;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+@keyframes opacity {
+    0%, 50% { opacity: 1;}
+    51%, 100% { opacity: 0 ;}
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navLeft a {
+    float: left;
+    display: block;
+    animation: text-colour 20s infinite;
+    text-align: center;
+    padding: 14px 16px; /* hight width */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navCenter a {
+    float: center;
+    display: block;
+    animation: text-colour 20s infinite;
+    text-align: center;
+    padding: 0px 0px; /* hight width */
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navRight a {
+    float: right;
+    display: block;
+    animation: text-colour 20s infinite;
+    text-align: center;
+    padding: 14px 30px; /* hight width */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@keyframes text-colour {
+    0%   { color:  #ffabab;}
+    17%  { color:  #fff5ba;}
+    33%  { color:  #bffcc6;}
+    48%  { color:  #85e3ff;}
+    66%  { color:  #b28eff;}
+    83%  { color:  #ff9cce;}
+    100% { color:  #ffabab;}
+}
